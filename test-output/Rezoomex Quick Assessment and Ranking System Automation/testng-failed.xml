@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rezoomex Quick Assessment and Ranking System Automation]">
+  <listeners>
+    <listener class-name="com.rqanrs.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.rqanrs.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.rqanrs.qa.testcases.LoginPageTest -->
+      <class name="com.rqanrs.qa.testcases.ManageJobsTest">
+        <methods>
+          <include name="processJobTest"/>
+          <include name="refreshManageJobsCorpus"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="manualJobTest"/>
+        </methods>
+      </class> <!-- com.rqanrs.qa.testcases.ManageJobsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Rezoomex Quick Assessment and Ranking System Automation] -->

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Rezoomex Quick Assessment and Ranking System Automation" duration-ms="129204" started-at="2018-12-03T13:25:45Z" finished-at="2018-12-03T13:27:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="129204" started-at="2018-12-03T13:25:45Z" finished-at="2018-12-03T13:27:54Z">
+      <class name="com.rqanrs.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="12286" started-at="2018-12-03T13:25:45Z" finished-at="2018-12-03T13:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.rqanrs.qa.testcases.LoginPageTest@6500df86]" name="loginPageTitleTest" duration-ms="76" started-at="2018-12-03T13:25:57Z" finished-at="2018-12-03T13:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="87" started-at="2018-12-03T13:25:58Z" finished-at="2018-12-03T13:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="13442" started-at="2018-12-03T13:25:58Z" finished-at="2018-12-03T13:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.rqanrs.qa.testcases.LoginPageTest@6500df86]" name="loginTest" duration-ms="1717" started-at="2018-12-03T13:26:12Z" data-provider="getTestdata" finished-at="2018-12-03T13:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sagar123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="79" started-at="2018-12-03T13:26:13Z" finished-at="2018-12-03T13:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="12339" started-at="2018-12-03T13:26:14Z" finished-at="2018-12-03T13:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.rqanrs.qa.testcases.LoginPageTest@6500df86]" name="loginTest" duration-ms="1998" started-at="2018-12-03T13:26:26Z" data-provider="getTestdata" finished-at="2018-12-03T13:26:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sagarakshe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="85" started-at="2018-12-03T13:26:28Z" finished-at="2018-12-03T13:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rqanrs.qa.testcases.LoginPageTest -->
+      <class name="com.rqanrs.qa.testcases.ManageJobsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="setup" is-config="true" duration-ms="15559" started-at="2018-12-03T13:26:28Z" finished-at="2018-12-03T13:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="automatedjobTest()[pri:4, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="automatedjobTest" duration-ms="4162" started-at="2018-12-03T13:26:44Z" finished-at="2018-12-03T13:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automatedjobTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="tearDown" is-config="true" duration-ms="72" started-at="2018-12-03T13:26:48Z" finished-at="2018-12-03T13:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="setup" is-config="true" duration-ms="14278" started-at="2018-12-03T13:26:48Z" finished-at="2018-12-03T13:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="manualJobTest()[pri:5, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="manualJobTest" duration-ms="4610" started-at="2018-12-03T13:27:02Z" finished-at="2018-12-03T13:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manualJobTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="tearDown" is-config="true" duration-ms="73" started-at="2018-12-03T13:27:07Z" finished-at="2018-12-03T13:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="setup" is-config="true" duration-ms="13355" started-at="2018-12-03T13:27:07Z" finished-at="2018-12-03T13:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="processJobTest()[pri:6, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="processJobTest" duration-ms="10651" started-at="2018-12-03T13:27:20Z" finished-at="2018-12-03T13:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processJobTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-12-03T13:27:31Z" finished-at="2018-12-03T13:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="setup" is-config="true" duration-ms="13267" started-at="2018-12-03T13:27:31Z" finished-at="2018-12-03T13:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="refreshManageJobsCorpus()[pri:7, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="refreshManageJobsCorpus" duration-ms="10121" started-at="2018-12-03T13:27:44Z" finished-at="2018-12-03T13:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshManageJobsCorpus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@402a079c]" name="tearDown" is-config="true" duration-ms="127" started-at="2018-12-03T13:27:54Z" finished-at="2018-12-03T13:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rqanrs.qa.testcases.ManageJobsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Rezoomex Quick Assessment and Ranking System Automation -->
+</testng-results>

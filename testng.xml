@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Rezoomex Quick Assessment and Ranking System Automation">
+    <listeners>
+		<listener class-name="com.rqanrs.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+  
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="com.rqanrs.qa.testcases.LoginPageTest"/>
+      <class name="com.rqanrs.qa.testcases.ManageJobsTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
