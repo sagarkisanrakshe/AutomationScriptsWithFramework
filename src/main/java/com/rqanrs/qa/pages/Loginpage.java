@@ -31,13 +31,13 @@ public class Loginpage extends Testbase {
 		return driver.getTitle();
 	}
 	
-	public ManageJobs login(String Username,String Password)
+	public ManageJobsPage login(String Username,String Password)
 	{
 		username.sendKeys(Username);
 		password.sendKeys(Password);
 		loginbtn.click();
 		
-		return new ManageJobs();
+		return new ManageJobsPage();
 		
 	}
 	

@@ -3,13 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rqanrs.qa.testcases.LoginPageTest">
+      <class name="com.rqanrs.qa.testcases.ManageResumesPageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
           <include name="setup"/>
+          <include name="opeingResumeTest"/>
+          <include name="quickTrackerDownloadTest"/>
+          <include name="deleteResumeTest"/>
+          <include name="folderUploadTest"/>
+          <include name="refreshManageResumesCorpusTest"/>
+          <include name="singleUploadTest"/>
+          <include name="moveToGoldTest"/>
+          <include name="tearDown"/>
+          <include name="suitabilityTrackerDownloadTest"/>
+          <include name="addToTrackerTest"/>
         </methods>
-      </class> <!-- com.rqanrs.qa.testcases.LoginPageTest -->
+      </class> <!-- com.rqanrs.qa.testcases.ManageResumesPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

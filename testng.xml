@@ -10,6 +10,12 @@
     <classes>
        <class name="com.rqanrs.qa.testcases.LoginPageTest"/>
       <class name="com.rqanrs.qa.testcases.ManageJobsTest"/>
+      <class name="com.rqanrs.qa.testcases.OpenJobPageTest"/>
+      <class name="com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest"/>
+       <class name="com.rqanrs.qa.testcases.ManageResumesPageTest"/>
+      
+      
+      
      
     </classes>
   </test> <!-- Test -->

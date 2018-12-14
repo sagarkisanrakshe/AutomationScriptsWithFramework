@@ -1,6 +1,5 @@
 package com.rqanrs.qa.testcases;
 
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.AfterMethod;
@@ -14,12 +13,13 @@ import org.testng.annotations.Test;
 
 import com.rqanrs.qa.base.Testbase;
 import com.rqanrs.qa.pages.Loginpage;
-import com.rqanrs.qa.pages.ManageJobs;
+import com.rqanrs.qa.pages.ManageJobsPage;
+import com.rqanrs.qa.pages.ManageJobsPage;
 import com.rqanrs.qa.util.TestUtil;
 
 public class LoginPageTest extends Testbase{
 	Loginpage loginpage;
-	ManageJobs managejobs;
+	ManageJobsPage managejobs;
 	String sheetName="login";
 	
 	

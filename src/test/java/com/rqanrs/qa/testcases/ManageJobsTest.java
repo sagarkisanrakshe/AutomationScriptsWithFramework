@@ -1,6 +1,6 @@
 package com.rqanrs.qa.testcases;
 
-import org.testng.annotations.AfterMethod;
+
 import org.testng.annotations.Test;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -12,12 +12,13 @@ import org.testng.annotations.Test;
 
 import com.rqanrs.qa.base.Testbase;
 import com.rqanrs.qa.pages.Loginpage;
-import com.rqanrs.qa.pages.ManageJobs;
+import com.rqanrs.qa.pages.ManageJobsPage;
+import com.rqanrs.qa.pages.ManageJobsPage;
 
 public class ManageJobsTest extends Testbase
 {
 	Loginpage loginpage;
-	ManageJobs managejobs;
+	ManageJobsPage managejobs;
 	
 	public ManageJobsTest()
 	{
@@ -29,7 +30,7 @@ public class ManageJobsTest extends Testbase
 	{
 		initialization();
 		loginpage=new Loginpage();
-		managejobs=new ManageJobs();
+		managejobs=new ManageJobsPage();
 		managejobs=loginpage.login(prop.getProperty("username"),prop.getProperty("password"));
 		
 		
@@ -37,7 +38,7 @@ public class ManageJobsTest extends Testbase
 	}
 	
 	@Test(priority=4)
-	public void automatedjobTest() throws InterruptedException
+	public void automatedJobCreationTest() throws InterruptedException
 	{   
 		
 		managejobs.verifyautomatedjobcreation();
@@ -45,7 +46,7 @@ public class ManageJobsTest extends Testbase
 		
 	}
 	@Test(priority=5)
-	public void manualJobTest()
+	public void manualJobCreationTest()
 	{
 		managejobs.verifyManualJobCreation();
 		System.out.println("Test Case for Manual Job Creation Pass");
@@ -58,14 +59,39 @@ public class ManageJobsTest extends Testbase
 	}
 	
 	@Test(priority=7)
-	public void refreshManageJobsCorpus() throws InterruptedException
+	public void refreshManageJobsCorpusTest() throws InterruptedException
 	{
 		managejobs.verifyRefreshofCorpus();
 		System.out.println("Test case for Refreshing the Manage Jobs Corpus Pass");
 	}
 
+	@Test(priority=8)
+	public void trackJobTest()
+	{
+	managejobs.verifyTrackclick();
+	System.out.println("Test Case for Tracking the Job Description Pass");
 	
+	}
+	@Test(priority=9)
+	public void downloadTrackerTest()
+	{
+		managejobs.verifyDownloadClick();
+		System.out.println("Test Case for Downloading the Blank Suitability Tracker Pass");
+	}
+	@Test(priority=10)
+	public void deletingJobTest()
+	{
+		managejobs.verifyDeletingJob();
+		System.out.println("Test Case for Deleting the Job Description Pass");
+	}
 	
+	@Test(priority=11)
+	public void openingJobTest()
+	{
+		managejobs.verifyOpeningJD();
+		System.out.println("Tes Case for Opening Job Description Pass");
+		
+	}
 	@AfterMethod
 	public void tearDown()
 	{
