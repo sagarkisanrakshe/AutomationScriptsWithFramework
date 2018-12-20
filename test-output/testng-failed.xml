@@ -6,20 +6,12 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.rqanrs.qa.testcases.ManageJobsTest">
+      <class name="com.rqanrs.qa.testcases.OpenResumePageTest">
         <methods>
-          <include name="downloadTrackerTest"/>
-          <include name="processJobTest"/>
-          <include name="refreshManageJobsCorpusTest"/>
           <include name="setup"/>
-          <include name="openingJobTest"/>
-          <include name="automatedJobCreationTest"/>
-          <include name="tearDown"/>
-          <include name="manualJobCreationTest"/>
-          <include name="deletingJobTest"/>
-          <include name="trackJobTest"/>
+          <include name="deleteAnnotationsToBeAnnotatedTabResume"/>
         </methods>
-      </class> <!-- com.rqanrs.qa.testcases.ManageJobsTest -->
+      </class> <!-- com.rqanrs.qa.testcases.OpenResumePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Rezoomex Quick Assessment and Ranking System Automation] -->

@@ -13,6 +13,7 @@
       <class name="com.rqanrs.qa.testcases.OpenJobPageTest"/>
       <class name="com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest"/>
        <class name="com.rqanrs.qa.testcases.ManageResumesPageTest"/>
+       <class name="com.rqanrs.qa.testcases.OpenResumePageTest"/>
       
       
       

@@ -25,8 +25,12 @@ public class Testbase {
 		
 		try
 		{
+			//String applicationPath = "/home/synerzip/workspace/RQANRSTests;
 			prop = new Properties();
+			//FileInputStream ip= new FileInputStream(System.getenv("applicationPath") +"/RQANRSTests/src/main/java/com/rqanrs/qa/config/config.properties");
 			FileInputStream ip= new FileInputStream("/home/synerzip/workspace/RQANRSTests/src/main/java/com/rqanrs/qa/config/config.properties");
+			
+			
 			prop.load(ip);
 			
 			
@@ -46,7 +50,7 @@ public class Testbase {
 		String browsername=prop.getProperty("browser");
 		
 		if(browsername.equals("chrome"))
-		{
+		{   
 			System.setProperty("webdriver.chrome.driver","/home/synerzip/Selenium/Jar/chromedriver");
 			   driver=new ChromeDriver();	
 			   
