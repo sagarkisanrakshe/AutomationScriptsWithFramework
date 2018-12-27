@@ -3,12 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest">
         <methods>
           <include name="fillupMissingInformationTest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest -->
+=======
+      <class name="com.rqanrs.qa.testcases.OpenResumePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="deleteAnnotationsToBeAnnotatedTabResume"/>
+        </methods>
+      </class> <!-- com.rqanrs.qa.testcases.OpenResumePageTest -->
+>>>>>>> 7709bb3358aabaa72be3e01167ab72837d0b2e47
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
