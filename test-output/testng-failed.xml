@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Rezoomex Quick Assessment and Ranking System Automation]">
-  <listeners>
-    <listener class-name="com.rqanrs.qa.ExtentReportListener.ExtentReporterNG"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rqanrs.qa.testcases.ManageJobsTest">
+      <class name="com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest">
         <methods>
-          <include name="downloadTrackerTest"/>
-          <include name="processJobTest"/>
-          <include name="refreshManageJobsCorpusTest"/>
+          <include name="fillupMissingInformationTest"/>
           <include name="setup"/>
-          <include name="openingJobTest"/>
-          <include name="automatedJobCreationTest"/>
-          <include name="tearDown"/>
-          <include name="manualJobCreationTest"/>
-          <include name="deletingJobTest"/>
-          <include name="trackJobTest"/>
         </methods>
-      </class> <!-- com.rqanrs.qa.testcases.ManageJobsTest -->
+      </class> <!-- com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Rezoomex Quick Assessment and Ranking System Automation] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

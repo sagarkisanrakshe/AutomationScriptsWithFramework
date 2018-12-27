@@ -32,7 +32,7 @@ public class ManageResumesPageTest extends Testbase{
 	managejobs=new ManageJobsPage();
 	manageresumes=new ManageResumesPage();
 	openjobtobeannotatedpage=new OpenJobToBeAnnotatedPage();
-	manageresumes=new ManageResumesPage();
+	//manageresumes=new ManageResumesPage();
 	
 	
 	
