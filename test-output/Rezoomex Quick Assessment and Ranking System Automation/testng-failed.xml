@@ -6,87 +6,13 @@
   </listeners>
   <test thread-count="5" name="TestSuite(failed)">
     <classes>
-<<<<<<< HEAD
-      <class name="com.rqanrs.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="loginPageTitleTest"/>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.rqanrs.qa.testcases.LoginPageTest -->
       <class name="com.rqanrs.qa.testcases.OpenResumePageTest">
         <methods>
-          <include name="solrRedirectFromTobeAnnotatedTabofResume"/>
-          <include name="setup"/>
-          <include name="deleteAnnotationsToBeAnnotatedTabResume"/>
-          <include name="goldButtonClickFromToBeAnnotatedTabResume"/>
-          <include name="backtoCorpusToBeAnnotatedTabResume"/>
-          <include name="logoutFromToBeAnnotatedTabResume"/>
-        </methods>
-      </class> <!-- com.rqanrs.qa.testcases.OpenResumePageTest -->
-      <class name="com.rqanrs.qa.testcases.ManageResumesPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="opeingResumeTest"/>
-          <include name="quickTrackerDownloadTest"/>
-          <include name="deleteResumeTest"/>
-          <include name="folderUploadTest"/>
-          <include name="refreshManageResumesCorpusTest"/>
-          <include name="singleUploadTest"/>
-          <include name="moveToGoldTest"/>
           <include name="tearDown"/>
-          <include name="suitabilityTrackerDownloadTest"/>
-          <include name="addToTrackerTest"/>
-        </methods>
-      </class> <!-- com.rqanrs.qa.testcases.ManageResumesPageTest -->
-      <class name="com.rqanrs.qa.testcases.OpenJobPageTest">
-        <methods>
-          <include name="logoutFromAnnotatedTabJDTest"/>
-          <include name="backToCorpusFromAnnotatedTabJDTest"/>
-          <include name="tearDown"/>
-          <include name="MoveToPipelineFromAnnotatedTabJDTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.rqanrs.qa.testcases.OpenJobPageTest -->
-      <class name="com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest">
-        <methods>
-          <include name="updateJDFormTest"/>
-          <include name="backToCorpusFromToBeAnnotatedTabJDTest"/>
-          <include name="savingJDTest"/>
-          <include name="standardizingJDTest"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="logoutFromToBeAnnotatedTabJDTest"/>
-          <include name="finishEditingJDTest"/>
-          <include name="moveToPipelineFromToBeAnnotatedTabJDTest"/>
-        </methods>
-      </class> <!-- com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest -->
-      <class name="com.rqanrs.qa.testcases.ManageJobsTest">
-=======
-      <class name="com.rqanrs.qa.testcases.OpenResumePageTest">
->>>>>>> 7709bb3358aabaa72be3e01167ab72837d0b2e47
-        <methods>
           <include name="setup"/>
           <include name="deleteAnnotationsToBeAnnotatedTabResume"/>
         </methods>
-<<<<<<< HEAD
-      </class> <!-- com.rqanrs.qa.testcases.ManageJobsTest -->
-      <class name="com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest">
-        <methods>
-          <include name="fillupMissingInformationTest"/>
-          <include name="goldClickFromModelHtmlTabTest"/>
-          <include name="backtoCorpusFromModelHtmlTabTest"/>
-          <include name="logoutFromModelHtmlTabTest"/>
-          <include name="fillupCandidateInformationTest"/>
-          <include name="exportDocumenttoSolrTest"/>
-          <include name="redirecttosolrFromModelHtmlTabTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest -->
-=======
       </class> <!-- com.rqanrs.qa.testcases.OpenResumePageTest -->
->>>>>>> 7709bb3358aabaa72be3e01167ab72837d0b2e47
     </classes>
   </test> <!-- TestSuite(failed) -->
 </suite> <!-- Failed suite [Rezoomex Quick Assessment and Ranking System Automation] -->

@@ -22,7 +22,7 @@ public class OpenJobToBeAnnotatedPageTest extends Testbase {
 	}
 	
 	@BeforeMethod
-	public void setup()
+	public void setup() throws InterruptedException
 	{
 		initialization();
 	loginpage=new Loginpage();
@@ -39,7 +39,7 @@ public class OpenJobToBeAnnotatedPageTest extends Testbase {
 	
 	
 	}
-	@Test(priority=15)
+	@Test(priority=18)
 	public void savingJDTest() throws InterruptedException
 	{
 		
@@ -47,40 +47,40 @@ public class OpenJobToBeAnnotatedPageTest extends Testbase {
 		System.out.println("Test Case for Saving Job Description Pass");
 	}
 	
-	@Test(priority=16)
+	@Test(priority=19)
 	public void finishEditingJDTest() throws InterruptedException
 	
 	{
 		openjobtobeannotatedpage.verifyFinishEditing();
 		System.out.println("Test Case for Finish Editing Job Description Pass");
 	}
-	@Test(priority=17)
+	@Test(priority=20)
 	public void standardizingJDTest() throws InterruptedException
 	{
 		openjobtobeannotatedpage.verifyStandardizingJD();
 		System.out.println("Test Case for Standardizing Job Description Pass");
 		
 	}
-	@Test(priority=18)
+	@Test(priority=21)
 	public void updateJDFormTest() throws InterruptedException
 	{
 		openjobtobeannotatedpage.verifyUpdatingJDForm();
 		System.out.println("Test Case for Updating JD Form Pass");
 	}
 	
-	@Test(priority=19)
+	@Test(priority=22)
 	public void backToCorpusFromToBeAnnotatedTabJDTest()
 	{
 		openjobtobeannotatedpage.verifyBackToCorpusClick();
 		System.out.println("Test Case For Back To Corpus Click In JD Form Pass");
 	}
-	@Test(priority=20)
+	@Test(priority=23)
 	public void moveToPipelineFromToBeAnnotatedTabJDTest()
 	{
 		openjobtobeannotatedpage.verifySolrRedirect();
 		System.out.println("Test Case for Solr Redirect Pass");
 	}
-	@Test(priority=21)
+	@Test(priority=24)
 	public void logoutFromToBeAnnotatedTabJDTest()
 	{
 		openjobtobeannotatedpage.verifylogout();

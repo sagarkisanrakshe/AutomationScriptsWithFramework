@@ -1,29 +1,522 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+<testng-results skipped="0" failed="1" ignored="0" total="45" passed="44">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="267155" started-at="2018-12-27T08:34:40Z" finished-at="2018-12-27T08:39:07Z">
+  <suite name="Rezoomex Quick Assessment and Ranking System Automation" duration-ms="1402524" started-at="2018-12-31T10:44:10Z" finished-at="2018-12-31T11:07:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="267155" started-at="2018-12-27T08:34:40Z" finished-at="2018-12-27T08:39:07Z">
-      <class name="com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="setup" is-config="true" duration-ms="31142" started-at="2018-12-27T08:34:40Z" finished-at="2018-12-27T08:35:11Z">
+    <test name="TestSuite" duration-ms="1402524" started-at="2018-12-31T10:44:10Z" finished-at="2018-12-31T11:07:32Z">
+      <class name="com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="setup" is-config="true" duration-ms="15003" started-at="2018-12-31T10:47:52Z" finished-at="2018-12-31T10:48:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="fillupCandidateInformationTest()[pri:36, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="fillupCandidateInformationTest" duration-ms="9218" started-at="2018-12-27T08:35:11Z" finished-at="2018-12-27T08:35:20Z">
+        <test-method status="PASS" signature="savingJDTest()[pri:18, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="savingJDTest" duration-ms="5091" started-at="2018-12-31T10:48:07Z" finished-at="2018-12-31T10:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savingJDTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="68" started-at="2018-12-31T10:48:12Z" finished-at="2018-12-31T10:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="setup" is-config="true" duration-ms="14577" started-at="2018-12-31T10:48:12Z" finished-at="2018-12-31T10:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="finishEditingJDTest()[pri:19, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="finishEditingJDTest" duration-ms="5177" started-at="2018-12-31T10:48:27Z" finished-at="2018-12-31T10:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishEditingJDTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-12-31T10:48:32Z" finished-at="2018-12-31T10:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="setup" is-config="true" duration-ms="13728" started-at="2018-12-31T10:48:32Z" finished-at="2018-12-31T10:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="standardizingJDTest()[pri:20, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="standardizingJDTest" duration-ms="20169" started-at="2018-12-31T10:48:46Z" finished-at="2018-12-31T10:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standardizingJDTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="73" started-at="2018-12-31T10:49:06Z" finished-at="2018-12-31T10:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="setup" is-config="true" duration-ms="14087" started-at="2018-12-31T10:49:06Z" finished-at="2018-12-31T10:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateJDFormTest()[pri:21, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="updateJDFormTest" duration-ms="68328" started-at="2018-12-31T10:49:20Z" finished-at="2018-12-31T10:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateJDFormTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="73" started-at="2018-12-31T10:50:29Z" finished-at="2018-12-31T10:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="setup" is-config="true" duration-ms="14309" started-at="2018-12-31T10:50:29Z" finished-at="2018-12-31T10:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="backToCorpusFromToBeAnnotatedTabJDTest()[pri:22, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="backToCorpusFromToBeAnnotatedTabJDTest" duration-ms="145" started-at="2018-12-31T10:50:43Z" finished-at="2018-12-31T10:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToCorpusFromToBeAnnotatedTabJDTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-12-31T10:50:43Z" finished-at="2018-12-31T10:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="setup" is-config="true" duration-ms="14448" started-at="2018-12-31T10:50:43Z" finished-at="2018-12-31T10:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="moveToPipelineFromToBeAnnotatedTabJDTest()[pri:23, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="moveToPipelineFromToBeAnnotatedTabJDTest" duration-ms="73" started-at="2018-12-31T10:50:58Z" finished-at="2018-12-31T10:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToPipelineFromToBeAnnotatedTabJDTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-12-31T10:50:58Z" finished-at="2018-12-31T10:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="setup" is-config="true" duration-ms="16284" started-at="2018-12-31T10:50:58Z" finished-at="2018-12-31T10:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoutFromToBeAnnotatedTabJDTest()[pri:24, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="logoutFromToBeAnnotatedTabJDTest" duration-ms="88" started-at="2018-12-31T10:51:14Z" finished-at="2018-12-31T10:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromToBeAnnotatedTabJDTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@5bcab519]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-12-31T10:51:14Z" finished-at="2018-12-31T10:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest -->
+      <class name="com.rqanrs.qa.testcases.OpenJobPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@6fd02e5]" name="setup" is-config="true" duration-ms="13873" started-at="2018-12-31T10:47:06Z" finished-at="2018-12-31T10:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="backToCorpusFromAnnotatedTabJDTest()[pri:15, instance:com.rqanrs.qa.testcases.OpenJobPageTest@6fd02e5]" name="backToCorpusFromAnnotatedTabJDTest" duration-ms="115" started-at="2018-12-31T10:47:19Z" finished-at="2018-12-31T10:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToCorpusFromAnnotatedTabJDTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="95" started-at="2018-12-31T10:47:20Z" finished-at="2018-12-31T10:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@6fd02e5]" name="setup" is-config="true" duration-ms="14584" started-at="2018-12-31T10:47:20Z" finished-at="2018-12-31T10:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoutFromAnnotatedTabJDTest()[pri:16, instance:com.rqanrs.qa.testcases.OpenJobPageTest@6fd02e5]" name="logoutFromAnnotatedTabJDTest" duration-ms="2075" started-at="2018-12-31T10:47:34Z" finished-at="2018-12-31T10:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAnnotatedTabJDTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-12-31T10:47:36Z" finished-at="2018-12-31T10:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@6fd02e5]" name="setup" is-config="true" duration-ms="13687" started-at="2018-12-31T10:47:36Z" finished-at="2018-12-31T10:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MoveToPipelineFromAnnotatedTabJDTest()[pri:17, instance:com.rqanrs.qa.testcases.OpenJobPageTest@6fd02e5]" name="MoveToPipelineFromAnnotatedTabJDTest" duration-ms="2068" started-at="2018-12-31T10:47:50Z" finished-at="2018-12-31T10:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToPipelineFromAnnotatedTabJDTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-12-31T10:47:52Z" finished-at="2018-12-31T10:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rqanrs.qa.testcases.OpenJobPageTest -->
+      <class name="com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="setup" is-config="true" duration-ms="35527" started-at="2018-12-31T11:02:22Z" finished-at="2018-12-31T11:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fillupCandidateInformationTest()[pri:39, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="fillupCandidateInformationTest" duration-ms="9274" started-at="2018-12-31T11:02:58Z" finished-at="2018-12-31T11:03:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillupCandidateInformationTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="setup" is-config="true" duration-ms="29361" started-at="2018-12-27T08:35:20Z" finished-at="2018-12-27T08:35:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="setup" is-config="true" duration-ms="34894" started-at="2018-12-31T11:03:07Z" finished-at="2018-12-31T11:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="fillupMissingInformationTest()[pri:37, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="fillupMissingInformationTest" duration-ms="20242" started-at="2018-12-27T08:35:50Z" finished-at="2018-12-27T08:36:10Z">
+        <test-method status="PASS" signature="fillupMissingInformationTest()[pri:40, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="fillupMissingInformationTest" duration-ms="5196" started-at="2018-12-31T11:03:42Z" finished-at="2018-12-31T11:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillupMissingInformationTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="setup" is-config="true" duration-ms="35769" started-at="2018-12-31T11:03:47Z" finished-at="2018-12-31T11:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="backtoCorpusFromModelHtmlTabTest()[pri:41, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="backtoCorpusFromModelHtmlTabTest" duration-ms="214" started-at="2018-12-31T11:04:23Z" finished-at="2018-12-31T11:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backtoCorpusFromModelHtmlTabTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="setup" is-config="true" duration-ms="36038" started-at="2018-12-31T11:04:23Z" finished-at="2018-12-31T11:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="exportDocumenttoSolrTest()[pri:42, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="exportDocumenttoSolrTest" duration-ms="7183" started-at="2018-12-31T11:04:59Z" finished-at="2018-12-31T11:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportDocumenttoSolrTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="setup" is-config="true" duration-ms="35484" started-at="2018-12-31T11:05:06Z" finished-at="2018-12-31T11:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoutFromModelHtmlTabTest()[pri:43, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="logoutFromModelHtmlTabTest" duration-ms="5075" started-at="2018-12-31T11:05:42Z" finished-at="2018-12-31T11:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromModelHtmlTabTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="setup" is-config="true" duration-ms="35805" started-at="2018-12-31T11:05:47Z" finished-at="2018-12-31T11:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="redirecttosolrFromModelHtmlTabTest()[pri:44, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="redirecttosolrFromModelHtmlTabTest" duration-ms="5067" started-at="2018-12-31T11:06:23Z" finished-at="2018-12-31T11:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirecttosolrFromModelHtmlTabTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="setup" is-config="true" duration-ms="37106" started-at="2018-12-31T11:06:28Z" finished-at="2018-12-31T11:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="goldClickFromModelHtmlTabTest()[pri:45, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@31a5c39e]" name="goldClickFromModelHtmlTabTest" duration-ms="5087" started-at="2018-12-31T11:07:05Z" finished-at="2018-12-31T11:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goldClickFromModelHtmlTabTest -->
+      </class> <!-- com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest -->
+      <class name="com.rqanrs.qa.testcases.DeletingCreatedTestDataTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.DeletingCreatedTestDataTest@3f49dace]" name="setup" is-config="true" duration-ms="9573" started-at="2018-12-31T11:07:10Z" finished-at="2018-12-31T11:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteTestDataTest()[pri:46, instance:com.rqanrs.qa.testcases.DeletingCreatedTestDataTest@3f49dace]" name="deleteTestDataTest" duration-ms="12977" started-at="2018-12-31T11:07:19Z" finished-at="2018-12-31T11:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTestDataTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.DeletingCreatedTestDataTest@3f49dace]" name="tearDown" is-config="true" duration-ms="70" started-at="2018-12-31T11:07:32Z" finished-at="2018-12-31T11:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rqanrs.qa.testcases.DeletingCreatedTestDataTest -->
+      <class name="com.rqanrs.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@1ce92674]" name="setup" is-config="true" duration-ms="6888" started-at="2018-12-31T10:44:10Z" finished-at="2018-12-31T10:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.rqanrs.qa.testcases.LoginPageTest@1ce92674]" name="loginPageTitleTest" duration-ms="84" started-at="2018-12-31T10:44:17Z" finished-at="2018-12-31T10:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-12-31T10:44:17Z" finished-at="2018-12-31T10:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@1ce92674]" name="setup" is-config="true" duration-ms="6555" started-at="2018-12-31T10:44:18Z" finished-at="2018-12-31T10:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.rqanrs.qa.testcases.LoginPageTest@1ce92674]" name="loginTest" duration-ms="1031" started-at="2018-12-31T10:44:24Z" data-provider="getTestdata" finished-at="2018-12-31T10:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vaishnavi@rezoomex.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vaishnavi@0363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="226" started-at="2018-12-31T10:44:25Z" finished-at="2018-12-31T10:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@1ce92674]" name="setup" is-config="true" duration-ms="6849" started-at="2018-12-31T10:44:25Z" finished-at="2018-12-31T10:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.rqanrs.qa.testcases.LoginPageTest@1ce92674]" name="loginTest" duration-ms="1044" started-at="2018-12-31T10:44:32Z" data-provider="getTestdata" finished-at="2018-12-31T10:44:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ankit@rezoomex.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ankit@4625]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="129" started-at="2018-12-31T10:44:33Z" finished-at="2018-12-31T10:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rqanrs.qa.testcases.LoginPageTest -->
+      <class name="com.rqanrs.qa.testcases.ManageJobsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="setup" is-config="true" duration-ms="8215" started-at="2018-12-31T10:44:34Z" finished-at="2018-12-31T10:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="automatedJobCreationTest()[pri:4, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="automatedJobCreationTest" duration-ms="4516" started-at="2018-12-31T10:44:42Z" finished-at="2018-12-31T10:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automatedJobCreationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-12-31T10:44:46Z" finished-at="2018-12-31T10:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="setup" is-config="true" duration-ms="9149" started-at="2018-12-31T10:44:46Z" finished-at="2018-12-31T10:44:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="manualJobCreationTest()[pri:5, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="manualJobCreationTest" duration-ms="4714" started-at="2018-12-31T10:44:55Z" finished-at="2018-12-31T10:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manualJobCreationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="87" started-at="2018-12-31T10:45:00Z" finished-at="2018-12-31T10:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="setup" is-config="true" duration-ms="8450" started-at="2018-12-31T10:45:00Z" finished-at="2018-12-31T10:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="processJobTest()[pri:6, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="processJobTest" duration-ms="10660" started-at="2018-12-31T10:45:09Z" finished-at="2018-12-31T10:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processJobTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-12-31T10:45:19Z" finished-at="2018-12-31T10:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="setup" is-config="true" duration-ms="8082" started-at="2018-12-31T10:45:19Z" finished-at="2018-12-31T10:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="refreshManageJobsCorpusTest()[pri:7, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="refreshManageJobsCorpusTest" duration-ms="10088" started-at="2018-12-31T10:45:28Z" finished-at="2018-12-31T10:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshManageJobsCorpusTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="82" started-at="2018-12-31T10:45:38Z" finished-at="2018-12-31T10:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="setup" is-config="true" duration-ms="8507" started-at="2018-12-31T10:45:38Z" finished-at="2018-12-31T10:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="trackJobTest()[pri:8, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="trackJobTest" duration-ms="9098" started-at="2018-12-31T10:45:46Z" finished-at="2018-12-31T10:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackJobTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="84" started-at="2018-12-31T10:45:55Z" finished-at="2018-12-31T10:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="setup" is-config="true" duration-ms="8808" started-at="2018-12-31T10:45:55Z" finished-at="2018-12-31T10:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="downloadTrackerTest()[pri:9, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="downloadTrackerTest" duration-ms="3813" started-at="2018-12-31T10:46:04Z" finished-at="2018-12-31T10:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadTrackerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-12-31T10:46:08Z" finished-at="2018-12-31T10:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="setup" is-config="true" duration-ms="8676" started-at="2018-12-31T10:46:08Z" finished-at="2018-12-31T10:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openingJobTest()[pri:11, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="openingJobTest" duration-ms="5971" started-at="2018-12-31T10:46:17Z" finished-at="2018-12-31T10:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingJobTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="83" started-at="2018-12-31T10:46:23Z" finished-at="2018-12-31T10:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="setup" is-config="true" duration-ms="8627" started-at="2018-12-31T10:46:23Z" finished-at="2018-12-31T10:46:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoutFromManageJobsCorpusTest()[pri:12, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="logoutFromManageJobsCorpusTest" duration-ms="2066" started-at="2018-12-31T10:46:31Z" finished-at="2018-12-31T10:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromManageJobsCorpusTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="80" started-at="2018-12-31T10:46:34Z" finished-at="2018-12-31T10:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="setup" is-config="true" duration-ms="8258" started-at="2018-12-31T10:46:34Z" finished-at="2018-12-31T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="solrRedirectFromManageJobsCorpusTest()[pri:13, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="solrRedirectFromManageJobsCorpusTest" duration-ms="12983" started-at="2018-12-31T10:46:42Z" finished-at="2018-12-31T10:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- solrRedirectFromManageJobsCorpusTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="70" started-at="2018-12-31T10:46:55Z" finished-at="2018-12-31T10:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="setup" is-config="true" duration-ms="8466" started-at="2018-12-31T10:46:55Z" finished-at="2018-12-31T10:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="goldClickFromManageJobsCorpusTest()[pri:14, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="goldClickFromManageJobsCorpusTest" duration-ms="2078" started-at="2018-12-31T10:47:03Z" finished-at="2018-12-31T10:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goldClickFromManageJobsCorpusTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-12-31T10:47:05Z" finished-at="2018-12-31T10:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rqanrs.qa.testcases.ManageJobsTest -->
+      <class name="com.rqanrs.qa.testcases.ManageResumesPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="setup" is-config="true" duration-ms="22284" started-at="2018-12-31T10:51:14Z" finished-at="2018-12-31T10:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="folderUploadTest()[pri:25, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="folderUploadTest" duration-ms="86121" started-at="2018-12-31T10:51:37Z" finished-at="2018-12-31T10:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- folderUploadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-12-31T10:53:03Z" finished-at="2018-12-31T10:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="setup" is-config="true" duration-ms="22497" started-at="2018-12-31T10:53:03Z" finished-at="2018-12-31T10:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="singleUploadTest()[pri:26, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="singleUploadTest" duration-ms="36149" started-at="2018-12-31T10:53:25Z" finished-at="2018-12-31T10:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleUploadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="tearDown" is-config="true" duration-ms="87" started-at="2018-12-31T10:54:01Z" finished-at="2018-12-31T10:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="setup" is-config="true" duration-ms="23001" started-at="2018-12-31T10:54:01Z" finished-at="2018-12-31T10:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="refreshManageResumesCorpusTest()[pri:27, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="refreshManageResumesCorpusTest" duration-ms="6067" started-at="2018-12-31T10:54:24Z" finished-at="2018-12-31T10:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshManageResumesCorpusTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="tearDown" is-config="true" duration-ms="69" started-at="2018-12-31T10:54:31Z" finished-at="2018-12-31T10:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="setup" is-config="true" duration-ms="24341" started-at="2018-12-31T10:54:31Z" finished-at="2018-12-31T10:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="quickTrackerDownloadTest()[pri:28, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="quickTrackerDownloadTest" duration-ms="6069" started-at="2018-12-31T10:54:55Z" finished-at="2018-12-31T10:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickTrackerDownloadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-12-31T10:55:01Z" finished-at="2018-12-31T10:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="setup" is-config="true" duration-ms="22891" started-at="2018-12-31T10:55:01Z" finished-at="2018-12-31T10:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="suitabilityTrackerDownloadTest()[pri:29, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="suitabilityTrackerDownloadTest" duration-ms="6070" started-at="2018-12-31T10:55:24Z" finished-at="2018-12-31T10:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitabilityTrackerDownloadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="tearDown" is-config="true" duration-ms="73" started-at="2018-12-31T10:55:30Z" finished-at="2018-12-31T10:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="setup" is-config="true" duration-ms="22044" started-at="2018-12-31T10:55:30Z" finished-at="2018-12-31T10:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addToTrackerTest()[pri:30, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="addToTrackerTest" duration-ms="6079" started-at="2018-12-31T10:55:52Z" finished-at="2018-12-31T10:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToTrackerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="tearDown" is-config="true" duration-ms="70" started-at="2018-12-31T10:55:58Z" finished-at="2018-12-31T10:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="setup" is-config="true" duration-ms="21630" started-at="2018-12-31T10:55:58Z" finished-at="2018-12-31T10:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteResumeTest()[pri:31, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="deleteResumeTest" duration-ms="6070" started-at="2018-12-31T10:56:20Z" finished-at="2018-12-31T10:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteResumeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="tearDown" is-config="true" duration-ms="69" started-at="2018-12-31T10:56:26Z" finished-at="2018-12-31T10:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="setup" is-config="true" duration-ms="22414" started-at="2018-12-31T10:56:26Z" finished-at="2018-12-31T10:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="moveToGoldTest()[pri:32, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="moveToGoldTest" duration-ms="6074" started-at="2018-12-31T10:56:49Z" finished-at="2018-12-31T10:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToGoldTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="tearDown" is-config="true" duration-ms="71" started-at="2018-12-31T10:56:55Z" finished-at="2018-12-31T10:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="setup" is-config="true" duration-ms="21385" started-at="2018-12-31T10:56:55Z" finished-at="2018-12-31T10:57:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="opeingResumeTest()[pri:33, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="opeingResumeTest" duration-ms="6076" started-at="2018-12-31T10:57:16Z" finished-at="2018-12-31T10:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opeingResumeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@e45f292]" name="tearDown" is-config="true" duration-ms="72" started-at="2018-12-31T10:57:22Z" finished-at="2018-12-31T10:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rqanrs.qa.testcases.ManageResumesPageTest -->
+      <class name="com.rqanrs.qa.testcases.OpenResumePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="setup" is-config="true" duration-ms="33720" started-at="2018-12-31T10:57:22Z" finished-at="2018-12-31T10:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="backtoCorpusToBeAnnotatedTabResume()[pri:34, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="backtoCorpusToBeAnnotatedTabResume" duration-ms="3153" started-at="2018-12-31T10:57:56Z" finished-at="2018-12-31T10:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backtoCorpusToBeAnnotatedTabResume -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="80" started-at="2018-12-31T10:57:59Z" finished-at="2018-12-31T10:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="setup" is-config="true" duration-ms="33651" started-at="2018-12-31T10:57:59Z" finished-at="2018-12-31T10:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="deleteAnnotationsToBeAnnotatedTabResume()[pri:35, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="deleteAnnotationsToBeAnnotatedTabResume" duration-ms="113230" started-at="2018-12-31T10:58:33Z" finished-at="2018-12-31T11:00:26Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'CandidateDetails')]"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='projectAnnotation']/li/a/span"}
   (Session info: chrome=63.0.3239.132)
   (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-93-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -32,11 +525,11 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'ULTP-478', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-93-generic', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
-Session ID: 53519b539e0fe0688a8467f1c5488a32
-*** Element info: {Using=xpath, value=//span[contains(text(),'CandidateDetails')]}]]>
+Session ID: b3539c8168e51777c26334c6bf3e9e34
+*** Element info: {Using=xpath, value=//*[@id='projectAnnotation']/li/a/span}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'CandidateDetails')]"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='projectAnnotation']/li/a/span"}
   (Session info: chrome=63.0.3239.132)
   (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-93-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -45,8 +538,8 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'ULTP-478', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-93-generic', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
-Session ID: 53519b539e0fe0688a8467f1c5488a32
-*** Element info: {Using=xpath, value=//span[contains(text(),'CandidateDetails')]}
+Session ID: b3539c8168e51777c26334c6bf3e9e34
+*** Element info: {Using=xpath, value=//*[@id='projectAnnotation']/li/a/span}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -63,18 +556,14 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.lang.reflect.Method.invoke(Method.java:498)
 at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+at com.sun.proxy.$Proxy8.findElement(Unknown Source)
 at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy10.click(Unknown Source)
-at com.rqanrs.qa.pages.OpenResumeModelHtmlPage.verifyMissingInformationUpdate(OpenResumeModelHtmlPage.java:73)
-at com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest.fillupMissingInformationTest(OpenResumeModelHtmlPageTest.java:57)
+at com.rqanrs.qa.pages.OpenResumePage.verifyDeletingAnnotations(OpenResumePage.java:168)
+at com.rqanrs.qa.testcases.OpenResumePageTest.deleteAnnotationsToBeAnnotatedTabResume(OpenResumePageTest.java:62)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,495 +594,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillupMissingInformationTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="setup" is-config="true" duration-ms="30733" started-at="2018-12-27T08:36:10Z" finished-at="2018-12-27T08:36:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="backtoCorpusFromModelHtmlTabTest()[pri:38, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="backtoCorpusFromModelHtmlTabTest" duration-ms="282" started-at="2018-12-27T08:36:41Z" finished-at="2018-12-27T08:36:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backtoCorpusFromModelHtmlTabTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="setup" is-config="true" duration-ms="31155" started-at="2018-12-27T08:36:41Z" finished-at="2018-12-27T08:37:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="exportDocumenttoSolrTest()[pri:39, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="exportDocumenttoSolrTest" duration-ms="7184" started-at="2018-12-27T08:37:12Z" finished-at="2018-12-27T08:37:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportDocumenttoSolrTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="setup" is-config="true" duration-ms="30666" started-at="2018-12-27T08:37:19Z" finished-at="2018-12-27T08:37:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logoutFromModelHtmlTabTest()[pri:40, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="logoutFromModelHtmlTabTest" duration-ms="5092" started-at="2018-12-27T08:37:50Z" finished-at="2018-12-27T08:37:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromModelHtmlTabTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="setup" is-config="true" duration-ms="30954" started-at="2018-12-27T08:37:55Z" finished-at="2018-12-27T08:38:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="redirecttosolrFromModelHtmlTabTest()[pri:41, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="redirecttosolrFromModelHtmlTabTest" duration-ms="5079" started-at="2018-12-27T08:38:26Z" finished-at="2018-12-27T08:38:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- redirecttosolrFromModelHtmlTabTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="setup" is-config="true" duration-ms="30906" started-at="2018-12-27T08:38:31Z" finished-at="2018-12-27T08:39:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="goldClickFromModelHtmlTabTest()[pri:42, instance:com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest@553f17c]" name="goldClickFromModelHtmlTabTest" duration-ms="5085" started-at="2018-12-27T08:39:02Z" finished-at="2018-12-27T08:39:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goldClickFromModelHtmlTabTest -->
-      </class> <!-- com.rqanrs.qa.testcases.OpenResumeModelHtmlPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
-=======
-<testng-results skipped="0" failed="0" ignored="0" total="35" passed="35">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Rezoomex Quick Assessment and Ranking System Automation" duration-ms="1023494" started-at="2018-12-20T05:06:06Z" finished-at="2018-12-20T05:23:09Z">
-    <groups>
-    </groups>
-    <test name="Test" duration-ms="1023494" started-at="2018-12-20T05:06:06Z" finished-at="2018-12-20T05:23:09Z">
-      <class name="com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="setup" is-config="true" duration-ms="11926" started-at="2018-12-20T05:09:06Z" finished-at="2018-12-20T05:09:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="savingJDTest()[pri:15, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="savingJDTest" duration-ms="5101" started-at="2018-12-20T05:09:18Z" finished-at="2018-12-20T05:09:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- savingJDTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-12-20T05:09:23Z" finished-at="2018-12-20T05:09:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="setup" is-config="true" duration-ms="13006" started-at="2018-12-20T05:09:23Z" finished-at="2018-12-20T05:09:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="finishEditingJDTest()[pri:16, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="finishEditingJDTest" duration-ms="5311" started-at="2018-12-20T05:09:36Z" finished-at="2018-12-20T05:09:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finishEditingJDTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="96" started-at="2018-12-20T05:09:41Z" finished-at="2018-12-20T05:09:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="setup" is-config="true" duration-ms="13794" started-at="2018-12-20T05:09:41Z" finished-at="2018-12-20T05:09:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="standardizingJDTest()[pri:17, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="standardizingJDTest" duration-ms="20259" started-at="2018-12-20T05:09:55Z" finished-at="2018-12-20T05:10:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- standardizingJDTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="73" started-at="2018-12-20T05:10:15Z" finished-at="2018-12-20T05:10:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="setup" is-config="true" duration-ms="12723" started-at="2018-12-20T05:10:15Z" finished-at="2018-12-20T05:10:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="updateJDFormTest()[pri:18, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="updateJDFormTest" duration-ms="69807" started-at="2018-12-20T05:10:28Z" finished-at="2018-12-20T05:11:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateJDFormTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="72" started-at="2018-12-20T05:11:38Z" finished-at="2018-12-20T05:11:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="setup" is-config="true" duration-ms="13066" started-at="2018-12-20T05:11:38Z" finished-at="2018-12-20T05:11:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="backToCorpusFromToBeAnnotatedTabJDTest()[pri:19, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="backToCorpusFromToBeAnnotatedTabJDTest" duration-ms="543" started-at="2018-12-20T05:11:51Z" finished-at="2018-12-20T05:11:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToCorpusFromToBeAnnotatedTabJDTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="71" started-at="2018-12-20T05:11:51Z" finished-at="2018-12-20T05:11:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="setup" is-config="true" duration-ms="12509" started-at="2018-12-20T05:11:52Z" finished-at="2018-12-20T05:12:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="moveToPipelineFromToBeAnnotatedTabJDTest()[pri:20, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="moveToPipelineFromToBeAnnotatedTabJDTest" duration-ms="111" started-at="2018-12-20T05:12:04Z" finished-at="2018-12-20T05:12:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- moveToPipelineFromToBeAnnotatedTabJDTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="71" started-at="2018-12-20T05:12:04Z" finished-at="2018-12-20T05:12:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="setup" is-config="true" duration-ms="12160" started-at="2018-12-20T05:12:04Z" finished-at="2018-12-20T05:12:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logoutFromToBeAnnotatedTabJDTest()[pri:21, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="logoutFromToBeAnnotatedTabJDTest" duration-ms="159" started-at="2018-12-20T05:12:16Z" finished-at="2018-12-20T05:12:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromToBeAnnotatedTabJDTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="81" started-at="2018-12-20T05:12:17Z" finished-at="2018-12-20T05:12:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rqanrs.qa.testcases.OpenJobToBeAnnotatedPageTest -->
-      <class name="com.rqanrs.qa.testcases.OpenJobPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@7085bdee]" name="setup" is-config="true" duration-ms="10972" started-at="2018-12-20T05:08:25Z" finished-at="2018-12-20T05:08:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="backToCorpusFromAnnotatedTabJDTest()[pri:12, instance:com.rqanrs.qa.testcases.OpenJobPageTest@7085bdee]" name="backToCorpusFromAnnotatedTabJDTest" duration-ms="1053" started-at="2018-12-20T05:08:36Z" finished-at="2018-12-20T05:08:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToCorpusFromAnnotatedTabJDTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@7085bdee]" name="tearDown" is-config="true" duration-ms="73" started-at="2018-12-20T05:08:37Z" finished-at="2018-12-20T05:08:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@7085bdee]" name="setup" is-config="true" duration-ms="12236" started-at="2018-12-20T05:08:37Z" finished-at="2018-12-20T05:08:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logoutFromAnnotatedTabJDTest()[pri:13, instance:com.rqanrs.qa.testcases.OpenJobPageTest@7085bdee]" name="logoutFromAnnotatedTabJDTest" duration-ms="2105" started-at="2018-12-20T05:08:49Z" finished-at="2018-12-20T05:08:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromAnnotatedTabJDTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@7085bdee]" name="tearDown" is-config="true" duration-ms="81" started-at="2018-12-20T05:08:51Z" finished-at="2018-12-20T05:08:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@7085bdee]" name="setup" is-config="true" duration-ms="11981" started-at="2018-12-20T05:08:51Z" finished-at="2018-12-20T05:09:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="MoveToPipelineFromAnnotatedTabJDTest()[pri:14, instance:com.rqanrs.qa.testcases.OpenJobPageTest@7085bdee]" name="MoveToPipelineFromAnnotatedTabJDTest" duration-ms="2139" started-at="2018-12-20T05:09:03Z" finished-at="2018-12-20T05:09:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MoveToPipelineFromAnnotatedTabJDTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenJobPageTest@7085bdee]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-12-20T05:09:06Z" finished-at="2018-12-20T05:09:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rqanrs.qa.testcases.OpenJobPageTest -->
-      <class name="com.rqanrs.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@3fee9989]" name="setup" is-config="true" duration-ms="7330" started-at="2018-12-20T05:06:06Z" finished-at="2018-12-20T05:06:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.rqanrs.qa.testcases.LoginPageTest@3fee9989]" name="loginPageTitleTest" duration-ms="33" started-at="2018-12-20T05:06:13Z" finished-at="2018-12-20T05:06:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@3fee9989]" name="tearDown" is-config="true" duration-ms="70" started-at="2018-12-20T05:06:13Z" finished-at="2018-12-20T05:06:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@3fee9989]" name="setup" is-config="true" duration-ms="6592" started-at="2018-12-20T05:06:14Z" finished-at="2018-12-20T05:06:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.rqanrs.qa.testcases.LoginPageTest@3fee9989]" name="loginTest" duration-ms="1330" started-at="2018-12-20T05:06:21Z" data-provider="getTestdata" finished-at="2018-12-20T05:06:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vaishnavi@rezoomex.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[vaishnavi@0363]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@3fee9989]" name="tearDown" is-config="true" duration-ms="70" started-at="2018-12-20T05:06:22Z" finished-at="2018-12-20T05:06:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@3fee9989]" name="setup" is-config="true" duration-ms="7313" started-at="2018-12-20T05:06:22Z" finished-at="2018-12-20T05:06:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.rqanrs.qa.testcases.LoginPageTest@3fee9989]" name="loginTest" duration-ms="1037" started-at="2018-12-20T05:06:29Z" data-provider="getTestdata" finished-at="2018-12-20T05:06:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ankit@rezoomex.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ankit@4625]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.LoginPageTest@3fee9989]" name="tearDown" is-config="true" duration-ms="170" started-at="2018-12-20T05:06:30Z" finished-at="2018-12-20T05:06:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rqanrs.qa.testcases.LoginPageTest -->
-      <class name="com.rqanrs.qa.testcases.ManageJobsTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="setup" is-config="true" duration-ms="8057" started-at="2018-12-20T05:06:31Z" finished-at="2018-12-20T05:06:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="automatedJobCreationTest()[pri:4, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="automatedJobCreationTest" duration-ms="4506" started-at="2018-12-20T05:06:39Z" finished-at="2018-12-20T05:06:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- automatedJobCreationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="73" started-at="2018-12-20T05:06:43Z" finished-at="2018-12-20T05:06:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="setup" is-config="true" duration-ms="9921" started-at="2018-12-20T05:06:43Z" finished-at="2018-12-20T05:06:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="manualJobCreationTest()[pri:5, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="manualJobCreationTest" duration-ms="4946" started-at="2018-12-20T05:06:53Z" finished-at="2018-12-20T05:06:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- manualJobCreationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-12-20T05:06:58Z" finished-at="2018-12-20T05:06:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="setup" is-config="true" duration-ms="7527" started-at="2018-12-20T05:06:58Z" finished-at="2018-12-20T05:07:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="processJobTest()[pri:6, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="processJobTest" duration-ms="11331" started-at="2018-12-20T05:07:06Z" finished-at="2018-12-20T05:07:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- processJobTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-12-20T05:07:17Z" finished-at="2018-12-20T05:07:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="setup" is-config="true" duration-ms="8188" started-at="2018-12-20T05:07:17Z" finished-at="2018-12-20T05:07:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="refreshManageJobsCorpusTest()[pri:7, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="refreshManageJobsCorpusTest" duration-ms="10114" started-at="2018-12-20T05:07:25Z" finished-at="2018-12-20T05:07:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- refreshManageJobsCorpusTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="192" started-at="2018-12-20T05:07:35Z" finished-at="2018-12-20T05:07:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="setup" is-config="true" duration-ms="8300" started-at="2018-12-20T05:07:36Z" finished-at="2018-12-20T05:07:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="trackJobTest()[pri:8, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="trackJobTest" duration-ms="4049" started-at="2018-12-20T05:07:44Z" finished-at="2018-12-20T05:07:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- trackJobTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="91" started-at="2018-12-20T05:07:48Z" finished-at="2018-12-20T05:07:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="setup" is-config="true" duration-ms="8176" started-at="2018-12-20T05:07:48Z" finished-at="2018-12-20T05:07:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="downloadTrackerTest()[pri:9, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="downloadTrackerTest" duration-ms="4125" started-at="2018-12-20T05:07:56Z" finished-at="2018-12-20T05:08:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- downloadTrackerTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-12-20T05:08:00Z" finished-at="2018-12-20T05:08:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="setup" is-config="true" duration-ms="8705" started-at="2018-12-20T05:08:00Z" finished-at="2018-12-20T05:08:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="deletingJobTest()[pri:10, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="deletingJobTest" duration-ms="3631" started-at="2018-12-20T05:08:09Z" finished-at="2018-12-20T05:08:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletingJobTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="75" started-at="2018-12-20T05:08:13Z" finished-at="2018-12-20T05:08:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="setup" is-config="true" duration-ms="8473" started-at="2018-12-20T05:08:13Z" finished-at="2018-12-20T05:08:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="openingJobTest()[pri:11, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="openingJobTest" duration-ms="3548" started-at="2018-12-20T05:08:21Z" finished-at="2018-12-20T05:08:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openingJobTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageJobsTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="70" started-at="2018-12-20T05:08:25Z" finished-at="2018-12-20T05:08:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rqanrs.qa.testcases.ManageJobsTest -->
-      <class name="com.rqanrs.qa.testcases.ManageResumesPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="setup" is-config="true" duration-ms="16976" started-at="2018-12-20T05:12:17Z" finished-at="2018-12-20T05:12:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="folderUploadTest()[pri:22, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="folderUploadTest" duration-ms="86172" started-at="2018-12-20T05:12:34Z" finished-at="2018-12-20T05:14:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- folderUploadTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="70" started-at="2018-12-20T05:14:00Z" finished-at="2018-12-20T05:14:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="setup" is-config="true" duration-ms="16980" started-at="2018-12-20T05:14:00Z" finished-at="2018-12-20T05:14:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="singleUploadTest()[pri:23, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="singleUploadTest" duration-ms="36175" started-at="2018-12-20T05:14:17Z" finished-at="2018-12-20T05:14:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- singleUploadTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="70" started-at="2018-12-20T05:14:53Z" finished-at="2018-12-20T05:14:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="setup" is-config="true" duration-ms="17001" started-at="2018-12-20T05:14:53Z" finished-at="2018-12-20T05:15:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="refreshManageResumesCorpusTest()[pri:24, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="refreshManageResumesCorpusTest" duration-ms="6084" started-at="2018-12-20T05:15:10Z" finished-at="2018-12-20T05:15:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- refreshManageResumesCorpusTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="68" started-at="2018-12-20T05:15:16Z" finished-at="2018-12-20T05:15:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="setup" is-config="true" duration-ms="17136" started-at="2018-12-20T05:15:16Z" finished-at="2018-12-20T05:15:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="quickTrackerDownloadTest()[pri:25, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="quickTrackerDownloadTest" duration-ms="6078" started-at="2018-12-20T05:15:33Z" finished-at="2018-12-20T05:15:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quickTrackerDownloadTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="72" started-at="2018-12-20T05:15:39Z" finished-at="2018-12-20T05:15:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="setup" is-config="true" duration-ms="17291" started-at="2018-12-20T05:15:40Z" finished-at="2018-12-20T05:15:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="suitabilityTrackerDownloadTest()[pri:26, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="suitabilityTrackerDownloadTest" duration-ms="6079" started-at="2018-12-20T05:15:57Z" finished-at="2018-12-20T05:16:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suitabilityTrackerDownloadTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="71" started-at="2018-12-20T05:16:03Z" finished-at="2018-12-20T05:16:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="setup" is-config="true" duration-ms="16266" started-at="2018-12-20T05:16:03Z" finished-at="2018-12-20T05:16:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addToTrackerTest()[pri:27, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="addToTrackerTest" duration-ms="6081" started-at="2018-12-20T05:16:19Z" finished-at="2018-12-20T05:16:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToTrackerTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="69" started-at="2018-12-20T05:16:25Z" finished-at="2018-12-20T05:16:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="setup" is-config="true" duration-ms="16265" started-at="2018-12-20T05:16:25Z" finished-at="2018-12-20T05:16:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="deleteResumeTest()[pri:28, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="deleteResumeTest" duration-ms="6098" started-at="2018-12-20T05:16:42Z" finished-at="2018-12-20T05:16:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteResumeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="67" started-at="2018-12-20T05:16:48Z" finished-at="2018-12-20T05:16:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="setup" is-config="true" duration-ms="16508" started-at="2018-12-20T05:16:48Z" finished-at="2018-12-20T05:17:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="moveToGoldTest()[pri:29, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="moveToGoldTest" duration-ms="6077" started-at="2018-12-20T05:17:04Z" finished-at="2018-12-20T05:17:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- moveToGoldTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="71" started-at="2018-12-20T05:17:10Z" finished-at="2018-12-20T05:17:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="setup" is-config="true" duration-ms="16972" started-at="2018-12-20T05:17:10Z" finished-at="2018-12-20T05:17:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="opeingResumeTest()[pri:30, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="opeingResumeTest" duration-ms="6078" started-at="2018-12-20T05:17:27Z" finished-at="2018-12-20T05:17:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- opeingResumeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.ManageResumesPageTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="69" started-at="2018-12-20T05:17:34Z" finished-at="2018-12-20T05:17:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.rqanrs.qa.testcases.ManageResumesPageTest -->
-      <class name="com.rqanrs.qa.testcases.OpenResumePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@6fd02e5]" name="setup" is-config="true" duration-ms="27635" started-at="2018-12-20T05:17:34Z" finished-at="2018-12-20T05:18:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="backtoCorpusToBeAnnotatedTabResume()[pri:31, instance:com.rqanrs.qa.testcases.OpenResumePageTest@6fd02e5]" name="backtoCorpusToBeAnnotatedTabResume" duration-ms="3221" started-at="2018-12-20T05:18:01Z" finished-at="2018-12-20T05:18:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backtoCorpusToBeAnnotatedTabResume -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@6fd02e5]" name="setup" is-config="true" duration-ms="27817" started-at="2018-12-20T05:18:04Z" finished-at="2018-12-20T05:18:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="deleteAnnotationsToBeAnnotatedTabResume()[pri:32, instance:com.rqanrs.qa.testcases.OpenResumePageTest@6fd02e5]" name="deleteAnnotationsToBeAnnotatedTabResume" duration-ms="175297" started-at="2018-12-20T05:18:32Z" finished-at="2018-12-20T05:21:28Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- deleteAnnotationsToBeAnnotatedTabResume -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@6fd02e5]" name="setup" is-config="true" duration-ms="29125" started-at="2018-12-20T05:21:28Z" finished-at="2018-12-20T05:21:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="84" started-at="2018-12-31T11:00:26Z" finished-at="2018-12-31T11:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="setup" is-config="true" duration-ms="34096" started-at="2018-12-31T11:00:26Z" finished-at="2018-12-31T11:01:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="solrRedirectFromTobeAnnotatedTabofResume()[pri:33, instance:com.rqanrs.qa.testcases.OpenResumePageTest@6fd02e5]" name="solrRedirectFromTobeAnnotatedTabofResume" duration-ms="5103" started-at="2018-12-20T05:21:57Z" finished-at="2018-12-20T05:22:02Z">
+        <test-method status="PASS" signature="solrRedirectFromTobeAnnotatedTabofResume()[pri:36, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="solrRedirectFromTobeAnnotatedTabofResume" duration-ms="5088" started-at="2018-12-31T11:01:00Z" finished-at="2018-12-31T11:01:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- solrRedirectFromTobeAnnotatedTabofResume -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@6fd02e5]" name="setup" is-config="true" duration-ms="27762" started-at="2018-12-20T05:22:02Z" finished-at="2018-12-20T05:22:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-12-31T11:01:05Z" finished-at="2018-12-31T11:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="setup" is-config="true" duration-ms="33092" started-at="2018-12-31T11:01:05Z" finished-at="2018-12-31T11:01:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="goldButtonClickFromToBeAnnotatedTabResume()[pri:34, instance:com.rqanrs.qa.testcases.OpenResumePageTest@6fd02e5]" name="goldButtonClickFromToBeAnnotatedTabResume" duration-ms="5104" started-at="2018-12-20T05:22:30Z" finished-at="2018-12-20T05:22:35Z">
+        <test-method status="PASS" signature="goldButtonClickFromToBeAnnotatedTabResume()[pri:37, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="goldButtonClickFromToBeAnnotatedTabResume" duration-ms="5082" started-at="2018-12-31T11:01:38Z" finished-at="2018-12-31T11:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goldButtonClickFromToBeAnnotatedTabResume -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@6fd02e5]" name="setup" is-config="true" duration-ms="29282" started-at="2018-12-20T05:22:35Z" finished-at="2018-12-20T05:23:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="70" started-at="2018-12-31T11:01:44Z" finished-at="2018-12-31T11:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="setup" is-config="true" duration-ms="33319" started-at="2018-12-31T11:01:44Z" finished-at="2018-12-31T11:02:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logoutFromToBeAnnotatedTabResume()[pri:35, instance:com.rqanrs.qa.testcases.OpenResumePageTest@6fd02e5]" name="logoutFromToBeAnnotatedTabResume" duration-ms="5144" started-at="2018-12-20T05:23:04Z" finished-at="2018-12-20T05:23:09Z">
+        <test-method status="PASS" signature="logoutFromToBeAnnotatedTabResume()[pri:38, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="logoutFromToBeAnnotatedTabResume" duration-ms="5090" started-at="2018-12-31T11:02:17Z" finished-at="2018-12-31T11:02:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromToBeAnnotatedTabResume -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rqanrs.qa.testcases.OpenResumePageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-12-31T11:02:22Z" finished-at="2018-12-31T11:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.rqanrs.qa.testcases.OpenResumePageTest -->
-    </test> <!-- Test -->
+    </test> <!-- TestSuite -->
   </suite> <!-- Rezoomex Quick Assessment and Ranking System Automation -->
->>>>>>> 7709bb3358aabaa72be3e01167ab72837d0b2e47
 </testng-results>

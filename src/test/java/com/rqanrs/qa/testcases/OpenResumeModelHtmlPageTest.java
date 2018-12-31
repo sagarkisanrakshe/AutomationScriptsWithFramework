@@ -43,14 +43,14 @@ public class OpenResumeModelHtmlPageTest extends Testbase{
 	
 }
 
-	@Test(priority=36)
+	@Test(priority=39)
 	public void fillupCandidateInformationTest() throws InterruptedException
 	{
 		openresumemodelhtmlpage.verifyCandidateInfoFillUp();
 		System.out.println("Test Case for Updating the Candidate Information Pass");
 	}
 	
-	@Test(priority=37)
+	@Test(priority=40)
 	public void fillupMissingInformationTest() throws InterruptedException
 	{
 		
@@ -58,13 +58,13 @@ public class OpenResumeModelHtmlPageTest extends Testbase{
 		System.out.println("Test Case for Filling Up the Missing Information Pass");
 		
 	}
-	@Test(priority=38)
+	@Test(priority=41)
 	public void backtoCorpusFromModelHtmlTabTest()
 	{
 		openresumemodelhtmlpage.verifybacktocorpus();
 		System.out.println("Test Case for Back To Corpus Click From The Model Html Tab of Resume Pass");
 	}
-	@Test(priority=39)
+	@Test(priority=42)
 	public void exportDocumenttoSolrTest() throws InterruptedException
 	{
 		openresumemodelhtmlpage.verifyExporttoSolr();
@@ -72,7 +72,7 @@ public class OpenResumeModelHtmlPageTest extends Testbase{
 		
 		
 	}
-	@Test(priority=40)
+	@Test(priority=43)
 	public void logoutFromModelHtmlTabTest() throws InterruptedException
 	{
 		
@@ -81,7 +81,7 @@ public class OpenResumeModelHtmlPageTest extends Testbase{
 		
 		
 	}
-	@Test(priority=41)
+	@Test(priority=44)
 	public void redirecttosolrFromModelHtmlTabTest() throws InterruptedException
 	{
 		
@@ -89,7 +89,7 @@ public class OpenResumeModelHtmlPageTest extends Testbase{
 		System.out.println("Test Case For Redirecting to the Solr from Model Html Tab Pass");
 		
 	}
-	@Test(priority=42)
+	@Test(priority=45)
 	public void goldClickFromModelHtmlTabTest() throws InterruptedException
 	{
 		

@@ -66,7 +66,7 @@ public class ManageJobsTest extends Testbase
 	}
 
 	@Test(priority=8)
-	public void trackJobTest()
+	public void trackJobTest() throws InterruptedException
 	{
 	managejobs.verifyTrackclick();
 	System.out.println("Test Case for Tracking the Job Description Pass");
@@ -78,20 +78,42 @@ public class ManageJobsTest extends Testbase
 		managejobs.verifyDownloadClick();
 		System.out.println("Test Case for Downloading the Blank Suitability Tracker Pass");
 	}
+	/*
 	@Test(priority=10)
-	public void deletingJobTest()
+	public void deletingJobTest() throws InterruptedException
 	{
 		managejobs.verifyDeletingJob();
 		System.out.println("Test Case for Deleting the Job Description Pass");
 	}
-	
+	*/
 	@Test(priority=11)
-	public void openingJobTest()
+	public void openingJobTest() throws InterruptedException
 	{
 		managejobs.verifyOpeningJD();
 		System.out.println("Tes Case for Opening Job Description Pass");
 		
 	}
+	@Test(priority=12)
+	public void logoutFromManageJobsCorpusTest() throws InterruptedException
+	{
+		managejobs.logout();
+		System.out.println("Test Case For Logout From Manage Jobs Corpus Pass");
+	}
+	@Test(priority=13)
+	public void solrRedirectFromManageJobsCorpusTest() throws InterruptedException
+	
+	{   managejobs.verifyTrackclick();
+	    Thread.sleep(2000);
+		managejobs.movetopipeline();
+		System.out.println("Test Case For Solr Redirect From Manage Jobs Corpus Pass");
+	}
+	@Test(priority=14)
+	public void goldClickFromManageJobsCorpusTest() throws InterruptedException
+	{
+		managejobs.goldbuttonclick();
+		System.out.println("Test Case For Gold Button Click From Manage Jobs Corpus Pass");
+	}
+	
 	@AfterMethod
 	public void tearDown()
 	{

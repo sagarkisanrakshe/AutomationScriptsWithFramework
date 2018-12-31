@@ -33,6 +33,14 @@ List<WebElement>rows;
 List<WebElement>cols;
 @FindBy(xpath="//*[@id='refreshbutton']")
 WebElement refreshbutton;
+@FindBy(xpath="/html/body/div[3]/div/div/div[3]/button[1]")
+WebElement DeleteConfirmationpopup;
+@FindBy(xpath="//*[@id='header']/div[1]/div[1]/button/span")
+WebElement logout;
+@FindBy(xpath="//button[contains(.,'Move To Pipeline')]")
+WebElement MoveToPipeline;
+@FindBy(xpath="//button[contains(.,'Gold')]")
+WebElement GoldClick;
 
 
 
@@ -97,7 +105,7 @@ public void verifyRefreshofCorpus() throws InterruptedException
 	refreshbutton.click();
 }
 
-public void verifyTrackclick()
+public void verifyTrackclick() throws InterruptedException
 {
 	System.out.println("Rows:"+rows.size());
 	System.out.println("Columns"+cols.size());
@@ -112,6 +120,7 @@ public void verifyTrackclick()
 	
 
 	lastrowlastColsButtons.get(3).click();
+	Thread.sleep(5000);
 }
 public void verifyDownloadClick()
 {
@@ -130,7 +139,7 @@ public void verifyDownloadClick()
 	lastrowlastColsButtons.get(4).click();
 	
 }
-public void verifyDeletingJob()
+public void verifyDeletingJob() throws InterruptedException
 {
 
 	System.out.println("Rows:"+rows.size());
@@ -145,8 +154,13 @@ public void verifyDeletingJob()
 	System.out.println("lastrowlastColsButtons: " +lastrowlastColsButtons.size());
 	
 	lastrowlastColsButtons.get(2).click();
+	Thread.sleep(2000);
+	DeleteConfirmationpopup.click();
+	Thread.sleep(5000);
+	
+	
 }
-public void verifyOpeningJD()
+public void verifyOpeningJD() throws InterruptedException
 {
 
 	System.out.println("Rows:"+rows.size());
@@ -161,5 +175,26 @@ public void verifyOpeningJD()
 	System.out.println("lastrowlastColsButtons: " +lastrowlastColsButtons.size());
 	
 	lastrowlastColsButtons.get(1).click();
+	Thread.sleep(2000);
+	
+	
+}
+public void logout() throws InterruptedException
+{
+	Thread.sleep(2000);
+	logout.click();
+	
+}
+public void movetopipeline() throws InterruptedException
+{
+	
+	Thread.sleep(2000);
+	MoveToPipeline.click();
+}
+public void goldbuttonclick() throws InterruptedException
+{
+	Thread.sleep(2000);
+	GoldClick.click();
+	
 }
 }

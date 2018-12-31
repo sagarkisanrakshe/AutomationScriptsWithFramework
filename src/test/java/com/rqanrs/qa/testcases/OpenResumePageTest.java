@@ -1,5 +1,6 @@
 package com.rqanrs.qa.testcases;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -47,7 +48,7 @@ public class OpenResumePageTest extends Testbase{
 	
 	
 }
-	@Test(priority=31)
+	@Test(priority=34)
 	public void backtoCorpusToBeAnnotatedTabResume() throws InterruptedException
 	{
 		openresumepage.verifyBackToCorpusClick();
@@ -55,21 +56,21 @@ public class OpenResumePageTest extends Testbase{
 		
 
 	}
-	@Test(priority=32)
+	@Test(priority=35)
 	public void deleteAnnotationsToBeAnnotatedTabResume() throws InterruptedException
 	{
 		openresumepage.verifyDeletingAnnotations();
 		System.out.println("Test Case For Deleting the Annotations from To Be Annotated Tab of Resume Pass");
 	}
 	
-	@Test(priority=33)
+	@Test(priority=36)
 	public void solrRedirectFromTobeAnnotatedTabofResume() throws InterruptedException
 	{
 		openresumepage.verifySolrRedirectFromToBeAnnotatedTabResume();
 		System.out.println("Test Case for SolrRedirect From To Be Annotated Tab of Resume Pass");
 		
 	}
-	@Test(priority=34)
+	@Test(priority=37)
 	public void goldButtonClickFromToBeAnnotatedTabResume() throws InterruptedException
 	{
 		openresumepage.verifyGoldClick();
@@ -77,11 +78,17 @@ public class OpenResumePageTest extends Testbase{
 		
 	}
 	
-  @Test(priority=35)
+  @Test(priority=38)
   public void logoutFromToBeAnnotatedTabResume() throws InterruptedException
   {
 	  openresumepage.logoutClick();
 	  System.out.println("Test Case for Logout From To Be Annotated Tab of Resume Pass");
 	  
   }
+  @AfterMethod
+	public void tearDown()
+	{
+		driver.quit();
+		
+	}
 }

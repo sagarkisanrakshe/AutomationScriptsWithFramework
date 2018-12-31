@@ -33,20 +33,20 @@ public class OpenJobPageTest extends Testbase{
 		
 		
 }
-	@Test(priority=12)
+	@Test(priority=15)
 	public void backToCorpusFromAnnotatedTabJDTest()
 	{
 		openjobpage.verifyBacktoCorpusClick();
 		System.out.println("Test Case for Clicking on the Back to Corpus Button Pass");
 		
 	}
-	@Test(priority=13)
+	@Test(priority=16)
 	public void logoutFromAnnotatedTabJDTest() throws InterruptedException
 	{
 		openjobpage.verifyLogout();
 		System.out.println("Test Case for Logout from AnnotatedTab Pass");
 	}
-	@Test(priority=14)
+	@Test(priority=17)
 	public void MoveToPipelineFromAnnotatedTabJDTest() throws InterruptedException
 	{
 	  openjobpage.verifySolrRedirect();
